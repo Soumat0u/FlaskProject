@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS (en son kararlı sürüm 4.5.2) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    {% block title %}
+        <title>Anasayfa</title>
+    {% endblock  %}
+
+    
+    
+</head>
+<body>
+    {% include "includes/navbar.html" %}
+
+    <div class="container">
+        {% block body %}
+
+        {% endblock  %}
+    </div>
+
+    <!-- jQuery (tam sürüm) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-ZvpUoO/+PpHD+p++Gk5y6a/lkK+3s7E+P/HqTGw2U+zkC6o5D2CW0Ab4kUFeMoyA5" crossorigin="anonymous"></script>
+    
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha384-4zdfE2HZa5M46HHeOCHEyL2/4v/NzLtDtzvDAs1FPXr3dJmhmVJ5p6IH0/QMH9Hy" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap JS (en son kararlı sürüm 4.5.2) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-LtrjvnR4+o9h4xf4c0QJktONz4aJd0Psnfqy+VRBfEQIF9pUpOW6uhqud4tWZzk2v" crossorigin="anonymous"></script>
+    
+    <!-- CKEditor -->
+    <script src="https://cdn.ckeditor.com/4.21.0/standard/ckeditor.js"></script>
+    
+    <!-- Google Code Prettify -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+
+</body>
+</html>
